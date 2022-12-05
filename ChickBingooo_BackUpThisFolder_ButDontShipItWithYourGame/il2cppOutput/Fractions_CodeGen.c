@@ -1,0 +1,664 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 Fractions.Fraction Fractions.FractionExt::Sqrt(Fractions.Fraction,System.Int32)
+extern void FractionExt_Sqrt_m953474D9E580301562158C05868C52EA0AA54B31 (void);
+// 0x00000002 System.Int32 Fractions.Fraction::CompareTo(System.Object)
+extern void Fraction_CompareTo_m1C13F85D10041116F0437DFE64193F1CF0E1C1F8 (void);
+// 0x00000003 System.Int32 Fractions.Fraction::CompareTo(Fractions.Fraction)
+extern void Fraction_CompareTo_m5BB55732F683CBB6538C5DDB51CA574DFA5872F6 (void);
+// 0x00000004 System.Void Fractions.Fraction::.ctor(System.Numerics.BigInteger,System.Numerics.BigInteger,Fractions.FractionState)
+extern void Fraction__ctor_m4B9AF0D4970AA1604ACFC138E67BAD92DFBE0595 (void);
+// 0x00000005 System.Void Fractions.Fraction::.ctor(System.Numerics.BigInteger,System.Numerics.BigInteger)
+extern void Fraction__ctor_m8817BD5399571CB5737ECBC2E1B15B39C8922685 (void);
+// 0x00000006 System.Void Fractions.Fraction::.ctor(System.Numerics.BigInteger,System.Numerics.BigInteger,System.Boolean)
+extern void Fraction__ctor_m391ED4DC6269D4CC7E97CFD1E4F0D0A8D79C104D (void);
+// 0x00000007 System.Void Fractions.Fraction::.ctor(System.Int32)
+extern void Fraction__ctor_m17F0E6AC13CF0D37E3893104B1DCAA62216C116D (void);
+// 0x00000008 System.Void Fractions.Fraction::.ctor(System.Int64)
+extern void Fraction__ctor_m64A84FEEA2233596E61104FB4238760671B13D92 (void);
+// 0x00000009 System.Void Fractions.Fraction::.ctor(System.UInt32)
+extern void Fraction__ctor_mA6377D6019F9702962B0ABA77E233844B20F63D3 (void);
+// 0x0000000A System.Void Fractions.Fraction::.ctor(System.UInt64)
+extern void Fraction__ctor_m4696329C67E6ECCDF67FADD0C919699E384EB715 (void);
+// 0x0000000B System.Void Fractions.Fraction::.ctor(System.Numerics.BigInteger)
+extern void Fraction__ctor_mE98BF34A7FCA37C3004669338DBCDDAF0914AD5A (void);
+// 0x0000000C System.Void Fractions.Fraction::.ctor(System.Double)
+extern void Fraction__ctor_m9E6B0E8EBF2FDE18685C0947A4AC0773B92846C0 (void);
+// 0x0000000D System.Void Fractions.Fraction::.ctor(System.Decimal)
+extern void Fraction__ctor_mE2832E4D046AE61C6F5ABF603464257CBE1D1353 (void);
+// 0x0000000E Fractions.Fraction Fractions.Fraction::FromString(System.String)
+extern void Fraction_FromString_m87AE53E879B82BDD8B03B3FE06A9C430E9E49D50 (void);
+// 0x0000000F Fractions.Fraction Fractions.Fraction::FromString(System.String,System.IFormatProvider)
+extern void Fraction_FromString_mA231E6F077066C1301E26A133A5E58D6D19F5412 (void);
+// 0x00000010 Fractions.Fraction Fractions.Fraction::FromString(System.String,System.Globalization.NumberStyles,System.IFormatProvider)
+extern void Fraction_FromString_m4075DD05AB9C1B86B747D922B6E1D4E66EF6EA25 (void);
+// 0x00000011 System.Boolean Fractions.Fraction::TryParse(System.String,Fractions.Fraction&)
+extern void Fraction_TryParse_mBEC9DDE5817CAECF8D20B945F32AB02F30499B3F (void);
+// 0x00000012 System.Boolean Fractions.Fraction::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,Fractions.Fraction&)
+extern void Fraction_TryParse_m56EDC2DE1D2028F974999FCCB7EA231A43AEC259 (void);
+// 0x00000013 System.Boolean Fractions.Fraction::TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Boolean,Fractions.Fraction&)
+extern void Fraction_TryParse_m36DB08BEC7D09DC12C00FB8E3C5ECACA2FE5A359 (void);
+// 0x00000014 System.Boolean Fractions.Fraction::TryParseSingleNumber(System.String,System.Globalization.NumberStyles,System.IFormatProvider,Fractions.Fraction&)
+extern void Fraction_TryParseSingleNumber_mA0CA5E9E106F98683AADB6ACA27E8B61B64870DF (void);
+// 0x00000015 System.Boolean Fractions.Fraction::CannotParse(Fractions.Fraction&)
+extern void Fraction_CannotParse_m0C1864181447C847DEDDE6E497B7099AB0D6EB31 (void);
+// 0x00000016 Fractions.Fraction Fractions.Fraction::FromDouble(System.Double)
+extern void Fraction_FromDouble_m4EBC0E2C7B5A0312206C4BD929B33B2302769F3D (void);
+// 0x00000017 Fractions.Fraction Fractions.Fraction::FromDoubleRounded(System.Double)
+extern void Fraction_FromDoubleRounded_m4DC3B266253E8F26D9547034A6206471E0B870F3 (void);
+// 0x00000018 Fractions.Fraction Fractions.Fraction::FromDecimal(System.Decimal)
+extern void Fraction_FromDecimal_m2F5B8E82AADC40BACD25CE7FEDC477E68E988A4D (void);
+// 0x00000019 System.Int32 Fractions.Fraction::ToInt32()
+extern void Fraction_ToInt32_m7D14FE7110866B1599F58BA33305A79C5C3BFAD1 (void);
+// 0x0000001A System.Int64 Fractions.Fraction::ToInt64()
+extern void Fraction_ToInt64_m20FFC71CD0F27E19A556CCA896EDF0C56E63E2EA (void);
+// 0x0000001B System.UInt32 Fractions.Fraction::ToUInt32()
+extern void Fraction_ToUInt32_m01DAAEC1498A8403722F1E5423161F488859299B (void);
+// 0x0000001C System.UInt64 Fractions.Fraction::ToUInt64()
+extern void Fraction_ToUInt64_m396A1ACDEFC568CC2571E229B54DB811E611C653 (void);
+// 0x0000001D System.Numerics.BigInteger Fractions.Fraction::ToBigInteger()
+extern void Fraction_ToBigInteger_m0F5E7329CB6BBE9664E782B4523F5724E7FAA3D6 (void);
+// 0x0000001E System.Decimal Fractions.Fraction::ToDecimal()
+extern void Fraction_ToDecimal_mFFC8D93C16E0127C7DBF041E5BC467497AEADD0F (void);
+// 0x0000001F System.Double Fractions.Fraction::ToDouble()
+extern void Fraction_ToDouble_m7D91DD601D068271B958DB8D29492AC8BFE8B572 (void);
+// 0x00000020 System.Numerics.BigInteger Fractions.Fraction::get_Numerator()
+extern void Fraction_get_Numerator_mD7015771875E32D8B78BE902D261F4FC98439218 (void);
+// 0x00000021 System.Numerics.BigInteger Fractions.Fraction::get_Denominator()
+extern void Fraction_get_Denominator_m42D773243ED46B047FAA7BEB1D34207E4ADED094 (void);
+// 0x00000022 System.Boolean Fractions.Fraction::get_IsPositive()
+extern void Fraction_get_IsPositive_mF501955223B353CD3768A78166D595D150187C1B (void);
+// 0x00000023 System.Boolean Fractions.Fraction::get_IsNegative()
+extern void Fraction_get_IsNegative_mA60643DE697CAB909BF73AF899A56C69DAF11AC9 (void);
+// 0x00000024 System.Boolean Fractions.Fraction::get_IsZero()
+extern void Fraction_get_IsZero_m670C2A6F853A6F48975E20B4F6A75CD1817E4AA5 (void);
+// 0x00000025 Fractions.FractionState Fractions.Fraction::get_State()
+extern void Fraction_get_State_mC510C8597E642F88E4E36DD32EAD41485FF0FF86 (void);
+// 0x00000026 Fractions.Fraction Fractions.Fraction::get_Zero()
+extern void Fraction_get_Zero_mD000083112FFBEA07B3406EAB9C16883AC68FF9A (void);
+// 0x00000027 Fractions.Fraction Fractions.Fraction::get_One()
+extern void Fraction_get_One_mFB4CED55267D091AE29A614B9F65E2973FACCB5F (void);
+// 0x00000028 Fractions.Fraction Fractions.Fraction::get_Two()
+extern void Fraction_get_Two_m324443011B6ACCEF979E590326706D1331EA5825 (void);
+// 0x00000029 Fractions.Fraction Fractions.Fraction::get_MinusOne()
+extern void Fraction_get_MinusOne_mE3F33175DB2BCA1841E99590D1EC7F27F0F21D2D (void);
+// 0x0000002A System.Boolean Fractions.Fraction::IsEquivalentTo(Fractions.Fraction)
+extern void Fraction_IsEquivalentTo_mCFF92A1395527017D70E491D139B5BF53CDA2F48 (void);
+// 0x0000002B System.Boolean Fractions.Fraction::Equals(Fractions.Fraction)
+extern void Fraction_Equals_mD977A53152F6503A233F14BA80AFA313DFE89BDF (void);
+// 0x0000002C System.Boolean Fractions.Fraction::Equals(System.Object)
+extern void Fraction_Equals_mC53CA903E911D03EE4398B761886C1C94EDB4980 (void);
+// 0x0000002D System.Int32 Fractions.Fraction::GetHashCode()
+extern void Fraction_GetHashCode_m73B8F4DEC7137D6EBC28AB224FC6BC910E41C678 (void);
+// 0x0000002E Fractions.Fraction Fractions.Fraction::Remainder(Fractions.Fraction)
+extern void Fraction_Remainder_m3B4C39688FEB3993210BF3365844EA8EBC7DE5BF (void);
+// 0x0000002F Fractions.Fraction Fractions.Fraction::Add(Fractions.Fraction)
+extern void Fraction_Add_m776BE479A849E8A0771801652E99FF7F0F973943 (void);
+// 0x00000030 Fractions.Fraction Fractions.Fraction::Subtract(Fractions.Fraction)
+extern void Fraction_Subtract_mFF164B545925661EC6830A16896153949AEDACC6 (void);
+// 0x00000031 Fractions.Fraction Fractions.Fraction::Invert()
+extern void Fraction_Invert_m773A469D5CA521DCF1CDEBA8CD720093DD548CA1 (void);
+// 0x00000032 Fractions.Fraction Fractions.Fraction::Multiply(Fractions.Fraction)
+extern void Fraction_Multiply_m483042A2D32E479EE53EE2BB577C15CA2257A995 (void);
+// 0x00000033 Fractions.Fraction Fractions.Fraction::Divide(Fractions.Fraction)
+extern void Fraction_Divide_mB9B86563225F7D7DC2C1F221A7DA3ACD30F2A34E (void);
+// 0x00000034 Fractions.Fraction Fractions.Fraction::Reduce()
+extern void Fraction_Reduce_m2C2609018FAF64CA25FB7A5519565F75A5ABF2BE (void);
+// 0x00000035 Fractions.Fraction Fractions.Fraction::Abs()
+extern void Fraction_Abs_mE9C6C315DCA028BB535079042567D5F1C5B4BFE2 (void);
+// 0x00000036 Fractions.Fraction Fractions.Fraction::Abs(Fractions.Fraction)
+extern void Fraction_Abs_mB9E1875E84B9EB23C4550DAD898DDA2B7AE72556 (void);
+// 0x00000037 Fractions.Fraction Fractions.Fraction::GetReducedFraction(System.Numerics.BigInteger,System.Numerics.BigInteger)
+extern void Fraction_GetReducedFraction_m5979AFE9B4F043045350BA9C22394EE7B9F7A646 (void);
+// 0x00000038 Fractions.Fraction Fractions.Fraction::Pow(Fractions.Fraction,System.Int32)
+extern void Fraction_Pow_m512D6851306097D1BE1D664637747C97F0C211EA (void);
+// 0x00000039 System.Boolean Fractions.Fraction::op_Equality(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Equality_m2258288D29650AD8CDB74CE7581E920ACF5ADE49 (void);
+// 0x0000003A System.Boolean Fractions.Fraction::op_Inequality(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Inequality_m9B732565F63F97C0C61A060F3DE94655DABBA582 (void);
+// 0x0000003B Fractions.Fraction Fractions.Fraction::op_Addition(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Addition_mC6D900D5AF9180B5E8967E80F19DA94513344C20 (void);
+// 0x0000003C Fractions.Fraction Fractions.Fraction::op_Subtraction(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Subtraction_mAA7A97820A1E92CB997961B0FEFD21A71504D490 (void);
+// 0x0000003D Fractions.Fraction Fractions.Fraction::op_Multiply(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Multiply_mC81C4F01CEC9D7C610AFF48042D092EAFA4A2464 (void);
+// 0x0000003E Fractions.Fraction Fractions.Fraction::op_Division(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Division_m56E69658CC541A64A495F81D96DF2EEE7124B963 (void);
+// 0x0000003F Fractions.Fraction Fractions.Fraction::op_Modulus(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_Modulus_m6EEAA07B8D1DE1F7BE61DA77AE7FF4B4D5AACCAD (void);
+// 0x00000040 System.Boolean Fractions.Fraction::op_LessThan(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_LessThan_m5696E6670093A3C6C56786D3E38C34420727362E (void);
+// 0x00000041 System.Boolean Fractions.Fraction::op_GreaterThan(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_GreaterThan_m6502DD910BE7FE64EB516D27A62EEA6217BF870C (void);
+// 0x00000042 System.Boolean Fractions.Fraction::op_LessThanOrEqual(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_LessThanOrEqual_m57E34CF8889A298907B3A5942F01D84774616624 (void);
+// 0x00000043 System.Boolean Fractions.Fraction::op_GreaterThanOrEqual(Fractions.Fraction,Fractions.Fraction)
+extern void Fraction_op_GreaterThanOrEqual_m7DE8CBC3572577DD1E514430685DA26AD96CD0BF (void);
+// 0x00000044 Fractions.Fraction Fractions.Fraction::op_Implicit(System.Int32)
+extern void Fraction_op_Implicit_mFF25E0538034DAF9816CBA88DBB829116DD8F270 (void);
+// 0x00000045 Fractions.Fraction Fractions.Fraction::op_Implicit(System.Int64)
+extern void Fraction_op_Implicit_m8AA49DCF81D48A647C04A96208946F159EB96AEF (void);
+// 0x00000046 Fractions.Fraction Fractions.Fraction::op_Implicit(System.UInt32)
+extern void Fraction_op_Implicit_m95F5972F4F3440F70D0DB7E524C09BA2E4E90F16 (void);
+// 0x00000047 Fractions.Fraction Fractions.Fraction::op_Implicit(System.UInt64)
+extern void Fraction_op_Implicit_m0988056C2F35694DB316D89A0E71D50DD1739F1D (void);
+// 0x00000048 Fractions.Fraction Fractions.Fraction::op_Implicit(System.Numerics.BigInteger)
+extern void Fraction_op_Implicit_m92410AED15B125F0312EA6E4E606AB1841F14F6E (void);
+// 0x00000049 Fractions.Fraction Fractions.Fraction::op_Explicit(System.Double)
+extern void Fraction_op_Explicit_m5D8D36CA0ACF2DA8EA8FA6A31118F3950742A00D (void);
+// 0x0000004A Fractions.Fraction Fractions.Fraction::op_Explicit(System.Decimal)
+extern void Fraction_op_Explicit_m532CC1BC31BC55BC899ADE6CCC1A667ADB501D71 (void);
+// 0x0000004B Fractions.Fraction Fractions.Fraction::op_Explicit(System.String)
+extern void Fraction_op_Explicit_mF9C505EA891122A3E1EADFCE3B9F4195F30327B1 (void);
+// 0x0000004C System.Int32 Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_mCE1D93751B52E6BF50416A90AB09C61D15F0A940 (void);
+// 0x0000004D System.Int64 Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_m272E4482B5D956F5BF2452EF2C4DBD2B0F53DEDD (void);
+// 0x0000004E System.UInt32 Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_m6DD744C6E9AC7B2FC40BC26D218247226B9482BD (void);
+// 0x0000004F System.UInt64 Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_m6E23F75CF3946299484F048DF2DE49262D1C7F06 (void);
+// 0x00000050 System.Decimal Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_mBA1FE326D4E567019B771B697FB3F2EF73789BA0 (void);
+// 0x00000051 System.Double Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_m2EEFF2B2E5887A94FE850E111598946E00B27FC0 (void);
+// 0x00000052 System.Numerics.BigInteger Fractions.Fraction::op_Explicit(Fractions.Fraction)
+extern void Fraction_op_Explicit_m4F4D574E8F1D1F64A20D627F7E7A1FF879F8D5DD (void);
+// 0x00000053 System.String Fractions.Fraction::ToString()
+extern void Fraction_ToString_mC4A6A4CEC69DE029231C3EE6A8AD6DE0D85186B7 (void);
+// 0x00000054 System.String Fractions.Fraction::ToString(System.String)
+extern void Fraction_ToString_m3B9F8B1DCA1FC418F6CC1B3A77754CB493D9740E (void);
+// 0x00000055 System.String Fractions.Fraction::ToString(System.String,System.IFormatProvider)
+extern void Fraction_ToString_mA983B4CC2B1F7A1F8766DB51D3E885EF2E7062D0 (void);
+// 0x00000056 System.Void Fractions.Fraction::.cctor()
+extern void Fraction__cctor_m5CA5C2E23F3DA5B0A3F0C6D46ED3BF6BB5A6386E (void);
+// 0x00000057 System.Void Fractions.InvalidNumberException::.ctor()
+extern void InvalidNumberException__ctor_m5F11503C0D12E5A582BD04B4A69EEAB018710AA3 (void);
+// 0x00000058 System.Void Fractions.InvalidNumberException::.ctor(System.String)
+extern void InvalidNumberException__ctor_mEAE7EE14DDB7B7337CF62015C650D61194C84968 (void);
+// 0x00000059 System.Void Fractions.InvalidNumberException::.ctor(System.String,System.Exception)
+extern void InvalidNumberException__ctor_mD3C1BAA223F2A609B08A37C3CB6A38CA66E155C3 (void);
+// 0x0000005A System.Boolean Fractions.TypeConverters.FractionTypeConverter::CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+extern void FractionTypeConverter_CanConvertTo_m283BE5C737A4CC433DB2D5369878244A712B7C49 (void);
+// 0x0000005B System.Boolean Fractions.TypeConverters.FractionTypeConverter::CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+extern void FractionTypeConverter_CanConvertFrom_m68E961033C9A6A0644242CF4378FE6C4CB03A839 (void);
+// 0x0000005C System.Object Fractions.TypeConverters.FractionTypeConverter::ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+extern void FractionTypeConverter_ConvertTo_m4E0A2A83683D6E00BC1F337E26C71D1168546EFE (void);
+// 0x0000005D System.Object Fractions.TypeConverters.FractionTypeConverter::ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+extern void FractionTypeConverter_ConvertFrom_m79E602D65686B8DFE4CA1081360694A081C96603 (void);
+// 0x0000005E System.Void Fractions.TypeConverters.FractionTypeConverter::.ctor()
+extern void FractionTypeConverter__ctor_mD19755422696544413A4159CC7AFDEA583514BE1 (void);
+// 0x0000005F System.Void Fractions.TypeConverters.FractionTypeConverter::.cctor()
+extern void FractionTypeConverter__cctor_mD7738D0D1F606B00811B91C31CA8BDCF782E2588 (void);
+// 0x00000060 System.Void Fractions.TypeConverters.FractionTypeConverter/<>c::.cctor()
+extern void U3CU3Ec__cctor_mEB4DC7765065F25D11D64E90178F8BE08A0402F2 (void);
+// 0x00000061 System.Void Fractions.TypeConverters.FractionTypeConverter/<>c::.ctor()
+extern void U3CU3Ec__ctor_m36A51D84C9AE708AB325282E7A28467725F2CE42 (void);
+// 0x00000062 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_0(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_0_mDA1DC035FED2DB9BBBCED6B4517D04693F396C64 (void);
+// 0x00000063 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_1(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_1_m3265FAFEA3AE101996ACF1E34ACA0A30D384E8F2 (void);
+// 0x00000064 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_2(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_2_mD558B81FE9BC24B49BD7242C7346C55578984686 (void);
+// 0x00000065 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_3(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_3_m4C45DCAD52C5BA34A6E14988A224FD5EBB2D4377 (void);
+// 0x00000066 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_4(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_4_mB8B8FFC1B92AC680EBE1251F365B174A091BEAE4 (void);
+// 0x00000067 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_5(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_5_mBFD4C26399EA82424C46511D9C3430D5141FDC0A (void);
+// 0x00000068 System.Object Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_6(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_6_m938E38B397B544144BD31A463524172D4D73F9B7 (void);
+// 0x00000069 Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_7(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_7_m12C7BE459CE17EA7532AB49ACDE255312B321DF1 (void);
+// 0x0000006A Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_8(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_8_m151868F5F27D99A568CD48419C47354A79156FD3 (void);
+// 0x0000006B Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_9(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_9_mCEEACBACC86C17557724020D57B6413D81CB2A8B (void);
+// 0x0000006C Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_10(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_10_m63A068088B1AF6A7AB2C0917F6AE394D1ED7A027 (void);
+// 0x0000006D Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_11(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_11_mCC6AF7A3BFC40EA4315E5B1DBC0F17659ADA4788 (void);
+// 0x0000006E Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_12(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_12_mD514FED5B5CB0A59660DAB4D73329707DD25BBD0 (void);
+// 0x0000006F Fractions.Fraction Fractions.TypeConverters.FractionTypeConverter/<>c::<.cctor>b__8_13(System.Object,System.Globalization.CultureInfo)
+extern void U3CU3Ec_U3C_cctorU3Eb__8_13_m1644D03FF49642DA2D9F3AA91D3B7E362FBE1F49 (void);
+// 0x00000070 System.Void Fractions.Properties.Resources::.ctor()
+extern void Resources__ctor_m4D41642B31B8FA7B24AF5B98C9161A1E2F4729C8 (void);
+// 0x00000071 System.Resources.ResourceManager Fractions.Properties.Resources::get_ResourceManager()
+extern void Resources_get_ResourceManager_m593A418860D9B4D80771B5BF4E476CAAD611A081 (void);
+// 0x00000072 System.Globalization.CultureInfo Fractions.Properties.Resources::get_Culture()
+extern void Resources_get_Culture_mEBA0CA2BBAA15A37FF37E0186E70D6C674C219E1 (void);
+// 0x00000073 System.Void Fractions.Properties.Resources::set_Culture(System.Globalization.CultureInfo)
+extern void Resources_set_Culture_m3BAAD2C6246C7A435EDF60D0E8CE180CA18A16CF (void);
+// 0x00000074 System.String Fractions.Properties.Resources::get_CannotConvertToFraction()
+extern void Resources_get_CannotConvertToFraction_m4A0248009CB2F22404C2E18A1B491A3FDDDB8C9C (void);
+// 0x00000075 System.String Fractions.Properties.Resources::get_CompareToArgumentException()
+extern void Resources_get_CompareToArgumentException_mCB85CEBBE3C3B8B674664FC69EC2ED5ADE8638BF (void);
+// 0x00000076 System.String Fractions.Properties.Resources::get_DivideByZero()
+extern void Resources_get_DivideByZero_m92340B7122498885FDD22D37EDCF50161CD85660 (void);
+// 0x00000077 System.String Fractions.Properties.Resources::get_TypeXnotSupported()
+extern void Resources_get_TypeXnotSupported_m4D44251DA61F23739D8F8D4A0C25F2B4386ABE5E (void);
+// 0x00000078 System.Object Fractions.Formatter.DefaultFractionFormatProvider::System.IFormatProvider.GetFormat(System.Type)
+extern void DefaultFractionFormatProvider_System_IFormatProvider_GetFormat_m24E1C006210034FCA4480CB2DDADD790B4CD479E (void);
+// 0x00000079 System.Void Fractions.Formatter.DefaultFractionFormatProvider::.ctor()
+extern void DefaultFractionFormatProvider__ctor_m4292EBB57EBEA325F047962A48909159B50C3E99 (void);
+// 0x0000007A System.Void Fractions.Formatter.DefaultFractionFormatProvider::.cctor()
+extern void DefaultFractionFormatProvider__cctor_mF6D2F3929154E10A67850FC177257A7E250F878E (void);
+// 0x0000007B System.String Fractions.Formatter.DefaultFractionFormatter::Format(System.String,System.Object,System.IFormatProvider)
+extern void DefaultFractionFormatter_Format_mD8D296033FA43749F0DC458552A2BE7382B8C292 (void);
+// 0x0000007C System.String Fractions.Formatter.DefaultFractionFormatter::FormatMixed(Fractions.Fraction)
+extern void DefaultFractionFormatter_FormatMixed_m97ECDAFFCD29C740E28BB080948C4C75E9C5E4A5 (void);
+// 0x0000007D System.String Fractions.Formatter.DefaultFractionFormatter::FormatInteger(Fractions.Fraction)
+extern void DefaultFractionFormatter_FormatInteger_m6487912E40E7AE275875C75C6EEC7493E044EFFA (void);
+// 0x0000007E System.String Fractions.Formatter.DefaultFractionFormatter::FormatRemainder(Fractions.Fraction)
+extern void DefaultFractionFormatter_FormatRemainder_m548D9E612DA3B29382257CCC11A11DC8EE1B81F5 (void);
+// 0x0000007F System.String Fractions.Formatter.DefaultFractionFormatter::FormatGeneral(Fractions.Fraction)
+extern void DefaultFractionFormatter_FormatGeneral_mE26522A6D27F072D587E4C6C3213F28DCCBFEA8F (void);
+// 0x00000080 System.Void Fractions.Formatter.DefaultFractionFormatter::.ctor()
+extern void DefaultFractionFormatter__ctor_mD7FC29BC0D1032A83CB0E0AEC89B28FEF780BD97 (void);
+// 0x00000081 System.Void Fractions.Formatter.DefaultFractionFormatter::.cctor()
+extern void DefaultFractionFormatter__cctor_mD69BDC16A44BDEBAC72EC4481C351AFE66161395 (void);
+// 0x00000082 System.Boolean Fractions.Extensions.MathExt::IsEven(System.Int64)
+extern void MathExt_IsEven_m94CC594E9BC00BE2389CC779DA49F67965E4E1A4 (void);
+// 0x00000083 System.Boolean Fractions.Extensions.MathExt::IsOdd(System.Int64)
+extern void MathExt_IsOdd_m1B824B7074D3B040292F3E2FD4609D2DB7C85227 (void);
+// 0x00000084 System.Int64 Fractions.Extensions.MathExt::GreatestCommonDivisor(System.Int64,System.Int64)
+extern void MathExt_GreatestCommonDivisor_m5778F097CF2D2CB551A9A822203856BB2C617CBF (void);
+// 0x00000085 System.Int64 Fractions.Extensions.MathExt::BinaryGreatestCommonDivisorAlgorithm(System.Int64,System.Int64)
+extern void MathExt_BinaryGreatestCommonDivisorAlgorithm_m47BCBDDA657D849CF95A8D3FD55997A04D35901D (void);
+// 0x00000086 System.Int64 Fractions.Extensions.MathExt::LeastCommonMultiple(System.Int64,System.Int64)
+extern void MathExt_LeastCommonMultiple_mEE866AB8A78C73462AC3FD83AA7940E466E48D81 (void);
+// 0x00000087 System.Boolean Fractions.Extensions.MathExt::RemainingDigitsAfterTheDecimalPoint(System.Double)
+extern void MathExt_RemainingDigitsAfterTheDecimalPoint_m8D139127C401C636473CED04DB15B577C6690942 (void);
+static Il2CppMethodPointer s_methodPointers[135] = 
+{
+	FractionExt_Sqrt_m953474D9E580301562158C05868C52EA0AA54B31,
+	Fraction_CompareTo_m1C13F85D10041116F0437DFE64193F1CF0E1C1F8,
+	Fraction_CompareTo_m5BB55732F683CBB6538C5DDB51CA574DFA5872F6,
+	Fraction__ctor_m4B9AF0D4970AA1604ACFC138E67BAD92DFBE0595,
+	Fraction__ctor_m8817BD5399571CB5737ECBC2E1B15B39C8922685,
+	Fraction__ctor_m391ED4DC6269D4CC7E97CFD1E4F0D0A8D79C104D,
+	Fraction__ctor_m17F0E6AC13CF0D37E3893104B1DCAA62216C116D,
+	Fraction__ctor_m64A84FEEA2233596E61104FB4238760671B13D92,
+	Fraction__ctor_mA6377D6019F9702962B0ABA77E233844B20F63D3,
+	Fraction__ctor_m4696329C67E6ECCDF67FADD0C919699E384EB715,
+	Fraction__ctor_mE98BF34A7FCA37C3004669338DBCDDAF0914AD5A,
+	Fraction__ctor_m9E6B0E8EBF2FDE18685C0947A4AC0773B92846C0,
+	Fraction__ctor_mE2832E4D046AE61C6F5ABF603464257CBE1D1353,
+	Fraction_FromString_m87AE53E879B82BDD8B03B3FE06A9C430E9E49D50,
+	Fraction_FromString_mA231E6F077066C1301E26A133A5E58D6D19F5412,
+	Fraction_FromString_m4075DD05AB9C1B86B747D922B6E1D4E66EF6EA25,
+	Fraction_TryParse_mBEC9DDE5817CAECF8D20B945F32AB02F30499B3F,
+	Fraction_TryParse_m56EDC2DE1D2028F974999FCCB7EA231A43AEC259,
+	Fraction_TryParse_m36DB08BEC7D09DC12C00FB8E3C5ECACA2FE5A359,
+	Fraction_TryParseSingleNumber_mA0CA5E9E106F98683AADB6ACA27E8B61B64870DF,
+	Fraction_CannotParse_m0C1864181447C847DEDDE6E497B7099AB0D6EB31,
+	Fraction_FromDouble_m4EBC0E2C7B5A0312206C4BD929B33B2302769F3D,
+	Fraction_FromDoubleRounded_m4DC3B266253E8F26D9547034A6206471E0B870F3,
+	Fraction_FromDecimal_m2F5B8E82AADC40BACD25CE7FEDC477E68E988A4D,
+	Fraction_ToInt32_m7D14FE7110866B1599F58BA33305A79C5C3BFAD1,
+	Fraction_ToInt64_m20FFC71CD0F27E19A556CCA896EDF0C56E63E2EA,
+	Fraction_ToUInt32_m01DAAEC1498A8403722F1E5423161F488859299B,
+	Fraction_ToUInt64_m396A1ACDEFC568CC2571E229B54DB811E611C653,
+	Fraction_ToBigInteger_m0F5E7329CB6BBE9664E782B4523F5724E7FAA3D6,
+	Fraction_ToDecimal_mFFC8D93C16E0127C7DBF041E5BC467497AEADD0F,
+	Fraction_ToDouble_m7D91DD601D068271B958DB8D29492AC8BFE8B572,
+	Fraction_get_Numerator_mD7015771875E32D8B78BE902D261F4FC98439218,
+	Fraction_get_Denominator_m42D773243ED46B047FAA7BEB1D34207E4ADED094,
+	Fraction_get_IsPositive_mF501955223B353CD3768A78166D595D150187C1B,
+	Fraction_get_IsNegative_mA60643DE697CAB909BF73AF899A56C69DAF11AC9,
+	Fraction_get_IsZero_m670C2A6F853A6F48975E20B4F6A75CD1817E4AA5,
+	Fraction_get_State_mC510C8597E642F88E4E36DD32EAD41485FF0FF86,
+	Fraction_get_Zero_mD000083112FFBEA07B3406EAB9C16883AC68FF9A,
+	Fraction_get_One_mFB4CED55267D091AE29A614B9F65E2973FACCB5F,
+	Fraction_get_Two_m324443011B6ACCEF979E590326706D1331EA5825,
+	Fraction_get_MinusOne_mE3F33175DB2BCA1841E99590D1EC7F27F0F21D2D,
+	Fraction_IsEquivalentTo_mCFF92A1395527017D70E491D139B5BF53CDA2F48,
+	Fraction_Equals_mD977A53152F6503A233F14BA80AFA313DFE89BDF,
+	Fraction_Equals_mC53CA903E911D03EE4398B761886C1C94EDB4980,
+	Fraction_GetHashCode_m73B8F4DEC7137D6EBC28AB224FC6BC910E41C678,
+	Fraction_Remainder_m3B4C39688FEB3993210BF3365844EA8EBC7DE5BF,
+	Fraction_Add_m776BE479A849E8A0771801652E99FF7F0F973943,
+	Fraction_Subtract_mFF164B545925661EC6830A16896153949AEDACC6,
+	Fraction_Invert_m773A469D5CA521DCF1CDEBA8CD720093DD548CA1,
+	Fraction_Multiply_m483042A2D32E479EE53EE2BB577C15CA2257A995,
+	Fraction_Divide_mB9B86563225F7D7DC2C1F221A7DA3ACD30F2A34E,
+	Fraction_Reduce_m2C2609018FAF64CA25FB7A5519565F75A5ABF2BE,
+	Fraction_Abs_mE9C6C315DCA028BB535079042567D5F1C5B4BFE2,
+	Fraction_Abs_mB9E1875E84B9EB23C4550DAD898DDA2B7AE72556,
+	Fraction_GetReducedFraction_m5979AFE9B4F043045350BA9C22394EE7B9F7A646,
+	Fraction_Pow_m512D6851306097D1BE1D664637747C97F0C211EA,
+	Fraction_op_Equality_m2258288D29650AD8CDB74CE7581E920ACF5ADE49,
+	Fraction_op_Inequality_m9B732565F63F97C0C61A060F3DE94655DABBA582,
+	Fraction_op_Addition_mC6D900D5AF9180B5E8967E80F19DA94513344C20,
+	Fraction_op_Subtraction_mAA7A97820A1E92CB997961B0FEFD21A71504D490,
+	Fraction_op_Multiply_mC81C4F01CEC9D7C610AFF48042D092EAFA4A2464,
+	Fraction_op_Division_m56E69658CC541A64A495F81D96DF2EEE7124B963,
+	Fraction_op_Modulus_m6EEAA07B8D1DE1F7BE61DA77AE7FF4B4D5AACCAD,
+	Fraction_op_LessThan_m5696E6670093A3C6C56786D3E38C34420727362E,
+	Fraction_op_GreaterThan_m6502DD910BE7FE64EB516D27A62EEA6217BF870C,
+	Fraction_op_LessThanOrEqual_m57E34CF8889A298907B3A5942F01D84774616624,
+	Fraction_op_GreaterThanOrEqual_m7DE8CBC3572577DD1E514430685DA26AD96CD0BF,
+	Fraction_op_Implicit_mFF25E0538034DAF9816CBA88DBB829116DD8F270,
+	Fraction_op_Implicit_m8AA49DCF81D48A647C04A96208946F159EB96AEF,
+	Fraction_op_Implicit_m95F5972F4F3440F70D0DB7E524C09BA2E4E90F16,
+	Fraction_op_Implicit_m0988056C2F35694DB316D89A0E71D50DD1739F1D,
+	Fraction_op_Implicit_m92410AED15B125F0312EA6E4E606AB1841F14F6E,
+	Fraction_op_Explicit_m5D8D36CA0ACF2DA8EA8FA6A31118F3950742A00D,
+	Fraction_op_Explicit_m532CC1BC31BC55BC899ADE6CCC1A667ADB501D71,
+	Fraction_op_Explicit_mF9C505EA891122A3E1EADFCE3B9F4195F30327B1,
+	Fraction_op_Explicit_mCE1D93751B52E6BF50416A90AB09C61D15F0A940,
+	Fraction_op_Explicit_m272E4482B5D956F5BF2452EF2C4DBD2B0F53DEDD,
+	Fraction_op_Explicit_m6DD744C6E9AC7B2FC40BC26D218247226B9482BD,
+	Fraction_op_Explicit_m6E23F75CF3946299484F048DF2DE49262D1C7F06,
+	Fraction_op_Explicit_mBA1FE326D4E567019B771B697FB3F2EF73789BA0,
+	Fraction_op_Explicit_m2EEFF2B2E5887A94FE850E111598946E00B27FC0,
+	Fraction_op_Explicit_m4F4D574E8F1D1F64A20D627F7E7A1FF879F8D5DD,
+	Fraction_ToString_mC4A6A4CEC69DE029231C3EE6A8AD6DE0D85186B7,
+	Fraction_ToString_m3B9F8B1DCA1FC418F6CC1B3A77754CB493D9740E,
+	Fraction_ToString_mA983B4CC2B1F7A1F8766DB51D3E885EF2E7062D0,
+	Fraction__cctor_m5CA5C2E23F3DA5B0A3F0C6D46ED3BF6BB5A6386E,
+	InvalidNumberException__ctor_m5F11503C0D12E5A582BD04B4A69EEAB018710AA3,
+	InvalidNumberException__ctor_mEAE7EE14DDB7B7337CF62015C650D61194C84968,
+	InvalidNumberException__ctor_mD3C1BAA223F2A609B08A37C3CB6A38CA66E155C3,
+	FractionTypeConverter_CanConvertTo_m283BE5C737A4CC433DB2D5369878244A712B7C49,
+	FractionTypeConverter_CanConvertFrom_m68E961033C9A6A0644242CF4378FE6C4CB03A839,
+	FractionTypeConverter_ConvertTo_m4E0A2A83683D6E00BC1F337E26C71D1168546EFE,
+	FractionTypeConverter_ConvertFrom_m79E602D65686B8DFE4CA1081360694A081C96603,
+	FractionTypeConverter__ctor_mD19755422696544413A4159CC7AFDEA583514BE1,
+	FractionTypeConverter__cctor_mD7738D0D1F606B00811B91C31CA8BDCF782E2588,
+	U3CU3Ec__cctor_mEB4DC7765065F25D11D64E90178F8BE08A0402F2,
+	U3CU3Ec__ctor_m36A51D84C9AE708AB325282E7A28467725F2CE42,
+	U3CU3Ec_U3C_cctorU3Eb__8_0_mDA1DC035FED2DB9BBBCED6B4517D04693F396C64,
+	U3CU3Ec_U3C_cctorU3Eb__8_1_m3265FAFEA3AE101996ACF1E34ACA0A30D384E8F2,
+	U3CU3Ec_U3C_cctorU3Eb__8_2_mD558B81FE9BC24B49BD7242C7346C55578984686,
+	U3CU3Ec_U3C_cctorU3Eb__8_3_m4C45DCAD52C5BA34A6E14988A224FD5EBB2D4377,
+	U3CU3Ec_U3C_cctorU3Eb__8_4_mB8B8FFC1B92AC680EBE1251F365B174A091BEAE4,
+	U3CU3Ec_U3C_cctorU3Eb__8_5_mBFD4C26399EA82424C46511D9C3430D5141FDC0A,
+	U3CU3Ec_U3C_cctorU3Eb__8_6_m938E38B397B544144BD31A463524172D4D73F9B7,
+	U3CU3Ec_U3C_cctorU3Eb__8_7_m12C7BE459CE17EA7532AB49ACDE255312B321DF1,
+	U3CU3Ec_U3C_cctorU3Eb__8_8_m151868F5F27D99A568CD48419C47354A79156FD3,
+	U3CU3Ec_U3C_cctorU3Eb__8_9_mCEEACBACC86C17557724020D57B6413D81CB2A8B,
+	U3CU3Ec_U3C_cctorU3Eb__8_10_m63A068088B1AF6A7AB2C0917F6AE394D1ED7A027,
+	U3CU3Ec_U3C_cctorU3Eb__8_11_mCC6AF7A3BFC40EA4315E5B1DBC0F17659ADA4788,
+	U3CU3Ec_U3C_cctorU3Eb__8_12_mD514FED5B5CB0A59660DAB4D73329707DD25BBD0,
+	U3CU3Ec_U3C_cctorU3Eb__8_13_m1644D03FF49642DA2D9F3AA91D3B7E362FBE1F49,
+	Resources__ctor_m4D41642B31B8FA7B24AF5B98C9161A1E2F4729C8,
+	Resources_get_ResourceManager_m593A418860D9B4D80771B5BF4E476CAAD611A081,
+	Resources_get_Culture_mEBA0CA2BBAA15A37FF37E0186E70D6C674C219E1,
+	Resources_set_Culture_m3BAAD2C6246C7A435EDF60D0E8CE180CA18A16CF,
+	Resources_get_CannotConvertToFraction_m4A0248009CB2F22404C2E18A1B491A3FDDDB8C9C,
+	Resources_get_CompareToArgumentException_mCB85CEBBE3C3B8B674664FC69EC2ED5ADE8638BF,
+	Resources_get_DivideByZero_m92340B7122498885FDD22D37EDCF50161CD85660,
+	Resources_get_TypeXnotSupported_m4D44251DA61F23739D8F8D4A0C25F2B4386ABE5E,
+	DefaultFractionFormatProvider_System_IFormatProvider_GetFormat_m24E1C006210034FCA4480CB2DDADD790B4CD479E,
+	DefaultFractionFormatProvider__ctor_m4292EBB57EBEA325F047962A48909159B50C3E99,
+	DefaultFractionFormatProvider__cctor_mF6D2F3929154E10A67850FC177257A7E250F878E,
+	DefaultFractionFormatter_Format_mD8D296033FA43749F0DC458552A2BE7382B8C292,
+	DefaultFractionFormatter_FormatMixed_m97ECDAFFCD29C740E28BB080948C4C75E9C5E4A5,
+	DefaultFractionFormatter_FormatInteger_m6487912E40E7AE275875C75C6EEC7493E044EFFA,
+	DefaultFractionFormatter_FormatRemainder_m548D9E612DA3B29382257CCC11A11DC8EE1B81F5,
+	DefaultFractionFormatter_FormatGeneral_mE26522A6D27F072D587E4C6C3213F28DCCBFEA8F,
+	DefaultFractionFormatter__ctor_mD7FC29BC0D1032A83CB0E0AEC89B28FEF780BD97,
+	DefaultFractionFormatter__cctor_mD69BDC16A44BDEBAC72EC4481C351AFE66161395,
+	MathExt_IsEven_m94CC594E9BC00BE2389CC779DA49F67965E4E1A4,
+	MathExt_IsOdd_m1B824B7074D3B040292F3E2FD4609D2DB7C85227,
+	MathExt_GreatestCommonDivisor_m5778F097CF2D2CB551A9A822203856BB2C617CBF,
+	MathExt_BinaryGreatestCommonDivisorAlgorithm_m47BCBDDA657D849CF95A8D3FD55997A04D35901D,
+	MathExt_LeastCommonMultiple_mEE866AB8A78C73462AC3FD83AA7940E466E48D81,
+	MathExt_RemainingDigitsAfterTheDecimalPoint_m8D139127C401C636473CED04DB15B577C6690942,
+};
+extern void Fraction_CompareTo_m1C13F85D10041116F0437DFE64193F1CF0E1C1F8_AdjustorThunk (void);
+extern void Fraction_CompareTo_m5BB55732F683CBB6538C5DDB51CA574DFA5872F6_AdjustorThunk (void);
+extern void Fraction__ctor_m4B9AF0D4970AA1604ACFC138E67BAD92DFBE0595_AdjustorThunk (void);
+extern void Fraction__ctor_m8817BD5399571CB5737ECBC2E1B15B39C8922685_AdjustorThunk (void);
+extern void Fraction__ctor_m391ED4DC6269D4CC7E97CFD1E4F0D0A8D79C104D_AdjustorThunk (void);
+extern void Fraction__ctor_m17F0E6AC13CF0D37E3893104B1DCAA62216C116D_AdjustorThunk (void);
+extern void Fraction__ctor_m64A84FEEA2233596E61104FB4238760671B13D92_AdjustorThunk (void);
+extern void Fraction__ctor_mA6377D6019F9702962B0ABA77E233844B20F63D3_AdjustorThunk (void);
+extern void Fraction__ctor_m4696329C67E6ECCDF67FADD0C919699E384EB715_AdjustorThunk (void);
+extern void Fraction__ctor_mE98BF34A7FCA37C3004669338DBCDDAF0914AD5A_AdjustorThunk (void);
+extern void Fraction__ctor_m9E6B0E8EBF2FDE18685C0947A4AC0773B92846C0_AdjustorThunk (void);
+extern void Fraction__ctor_mE2832E4D046AE61C6F5ABF603464257CBE1D1353_AdjustorThunk (void);
+extern void Fraction_ToInt32_m7D14FE7110866B1599F58BA33305A79C5C3BFAD1_AdjustorThunk (void);
+extern void Fraction_ToInt64_m20FFC71CD0F27E19A556CCA896EDF0C56E63E2EA_AdjustorThunk (void);
+extern void Fraction_ToUInt32_m01DAAEC1498A8403722F1E5423161F488859299B_AdjustorThunk (void);
+extern void Fraction_ToUInt64_m396A1ACDEFC568CC2571E229B54DB811E611C653_AdjustorThunk (void);
+extern void Fraction_ToBigInteger_m0F5E7329CB6BBE9664E782B4523F5724E7FAA3D6_AdjustorThunk (void);
+extern void Fraction_ToDecimal_mFFC8D93C16E0127C7DBF041E5BC467497AEADD0F_AdjustorThunk (void);
+extern void Fraction_ToDouble_m7D91DD601D068271B958DB8D29492AC8BFE8B572_AdjustorThunk (void);
+extern void Fraction_get_Numerator_mD7015771875E32D8B78BE902D261F4FC98439218_AdjustorThunk (void);
+extern void Fraction_get_Denominator_m42D773243ED46B047FAA7BEB1D34207E4ADED094_AdjustorThunk (void);
+extern void Fraction_get_IsPositive_mF501955223B353CD3768A78166D595D150187C1B_AdjustorThunk (void);
+extern void Fraction_get_IsNegative_mA60643DE697CAB909BF73AF899A56C69DAF11AC9_AdjustorThunk (void);
+extern void Fraction_get_IsZero_m670C2A6F853A6F48975E20B4F6A75CD1817E4AA5_AdjustorThunk (void);
+extern void Fraction_get_State_mC510C8597E642F88E4E36DD32EAD41485FF0FF86_AdjustorThunk (void);
+extern void Fraction_IsEquivalentTo_mCFF92A1395527017D70E491D139B5BF53CDA2F48_AdjustorThunk (void);
+extern void Fraction_Equals_mD977A53152F6503A233F14BA80AFA313DFE89BDF_AdjustorThunk (void);
+extern void Fraction_Equals_mC53CA903E911D03EE4398B761886C1C94EDB4980_AdjustorThunk (void);
+extern void Fraction_GetHashCode_m73B8F4DEC7137D6EBC28AB224FC6BC910E41C678_AdjustorThunk (void);
+extern void Fraction_Remainder_m3B4C39688FEB3993210BF3365844EA8EBC7DE5BF_AdjustorThunk (void);
+extern void Fraction_Add_m776BE479A849E8A0771801652E99FF7F0F973943_AdjustorThunk (void);
+extern void Fraction_Subtract_mFF164B545925661EC6830A16896153949AEDACC6_AdjustorThunk (void);
+extern void Fraction_Invert_m773A469D5CA521DCF1CDEBA8CD720093DD548CA1_AdjustorThunk (void);
+extern void Fraction_Multiply_m483042A2D32E479EE53EE2BB577C15CA2257A995_AdjustorThunk (void);
+extern void Fraction_Divide_mB9B86563225F7D7DC2C1F221A7DA3ACD30F2A34E_AdjustorThunk (void);
+extern void Fraction_Reduce_m2C2609018FAF64CA25FB7A5519565F75A5ABF2BE_AdjustorThunk (void);
+extern void Fraction_Abs_mE9C6C315DCA028BB535079042567D5F1C5B4BFE2_AdjustorThunk (void);
+extern void Fraction_ToString_mC4A6A4CEC69DE029231C3EE6A8AD6DE0D85186B7_AdjustorThunk (void);
+extern void Fraction_ToString_m3B9F8B1DCA1FC418F6CC1B3A77754CB493D9740E_AdjustorThunk (void);
+extern void Fraction_ToString_mA983B4CC2B1F7A1F8766DB51D3E885EF2E7062D0_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[40] = 
+{
+	{ 0x06000002, Fraction_CompareTo_m1C13F85D10041116F0437DFE64193F1CF0E1C1F8_AdjustorThunk },
+	{ 0x06000003, Fraction_CompareTo_m5BB55732F683CBB6538C5DDB51CA574DFA5872F6_AdjustorThunk },
+	{ 0x06000004, Fraction__ctor_m4B9AF0D4970AA1604ACFC138E67BAD92DFBE0595_AdjustorThunk },
+	{ 0x06000005, Fraction__ctor_m8817BD5399571CB5737ECBC2E1B15B39C8922685_AdjustorThunk },
+	{ 0x06000006, Fraction__ctor_m391ED4DC6269D4CC7E97CFD1E4F0D0A8D79C104D_AdjustorThunk },
+	{ 0x06000007, Fraction__ctor_m17F0E6AC13CF0D37E3893104B1DCAA62216C116D_AdjustorThunk },
+	{ 0x06000008, Fraction__ctor_m64A84FEEA2233596E61104FB4238760671B13D92_AdjustorThunk },
+	{ 0x06000009, Fraction__ctor_mA6377D6019F9702962B0ABA77E233844B20F63D3_AdjustorThunk },
+	{ 0x0600000A, Fraction__ctor_m4696329C67E6ECCDF67FADD0C919699E384EB715_AdjustorThunk },
+	{ 0x0600000B, Fraction__ctor_mE98BF34A7FCA37C3004669338DBCDDAF0914AD5A_AdjustorThunk },
+	{ 0x0600000C, Fraction__ctor_m9E6B0E8EBF2FDE18685C0947A4AC0773B92846C0_AdjustorThunk },
+	{ 0x0600000D, Fraction__ctor_mE2832E4D046AE61C6F5ABF603464257CBE1D1353_AdjustorThunk },
+	{ 0x06000019, Fraction_ToInt32_m7D14FE7110866B1599F58BA33305A79C5C3BFAD1_AdjustorThunk },
+	{ 0x0600001A, Fraction_ToInt64_m20FFC71CD0F27E19A556CCA896EDF0C56E63E2EA_AdjustorThunk },
+	{ 0x0600001B, Fraction_ToUInt32_m01DAAEC1498A8403722F1E5423161F488859299B_AdjustorThunk },
+	{ 0x0600001C, Fraction_ToUInt64_m396A1ACDEFC568CC2571E229B54DB811E611C653_AdjustorThunk },
+	{ 0x0600001D, Fraction_ToBigInteger_m0F5E7329CB6BBE9664E782B4523F5724E7FAA3D6_AdjustorThunk },
+	{ 0x0600001E, Fraction_ToDecimal_mFFC8D93C16E0127C7DBF041E5BC467497AEADD0F_AdjustorThunk },
+	{ 0x0600001F, Fraction_ToDouble_m7D91DD601D068271B958DB8D29492AC8BFE8B572_AdjustorThunk },
+	{ 0x06000020, Fraction_get_Numerator_mD7015771875E32D8B78BE902D261F4FC98439218_AdjustorThunk },
+	{ 0x06000021, Fraction_get_Denominator_m42D773243ED46B047FAA7BEB1D34207E4ADED094_AdjustorThunk },
+	{ 0x06000022, Fraction_get_IsPositive_mF501955223B353CD3768A78166D595D150187C1B_AdjustorThunk },
+	{ 0x06000023, Fraction_get_IsNegative_mA60643DE697CAB909BF73AF899A56C69DAF11AC9_AdjustorThunk },
+	{ 0x06000024, Fraction_get_IsZero_m670C2A6F853A6F48975E20B4F6A75CD1817E4AA5_AdjustorThunk },
+	{ 0x06000025, Fraction_get_State_mC510C8597E642F88E4E36DD32EAD41485FF0FF86_AdjustorThunk },
+	{ 0x0600002A, Fraction_IsEquivalentTo_mCFF92A1395527017D70E491D139B5BF53CDA2F48_AdjustorThunk },
+	{ 0x0600002B, Fraction_Equals_mD977A53152F6503A233F14BA80AFA313DFE89BDF_AdjustorThunk },
+	{ 0x0600002C, Fraction_Equals_mC53CA903E911D03EE4398B761886C1C94EDB4980_AdjustorThunk },
+	{ 0x0600002D, Fraction_GetHashCode_m73B8F4DEC7137D6EBC28AB224FC6BC910E41C678_AdjustorThunk },
+	{ 0x0600002E, Fraction_Remainder_m3B4C39688FEB3993210BF3365844EA8EBC7DE5BF_AdjustorThunk },
+	{ 0x0600002F, Fraction_Add_m776BE479A849E8A0771801652E99FF7F0F973943_AdjustorThunk },
+	{ 0x06000030, Fraction_Subtract_mFF164B545925661EC6830A16896153949AEDACC6_AdjustorThunk },
+	{ 0x06000031, Fraction_Invert_m773A469D5CA521DCF1CDEBA8CD720093DD548CA1_AdjustorThunk },
+	{ 0x06000032, Fraction_Multiply_m483042A2D32E479EE53EE2BB577C15CA2257A995_AdjustorThunk },
+	{ 0x06000033, Fraction_Divide_mB9B86563225F7D7DC2C1F221A7DA3ACD30F2A34E_AdjustorThunk },
+	{ 0x06000034, Fraction_Reduce_m2C2609018FAF64CA25FB7A5519565F75A5ABF2BE_AdjustorThunk },
+	{ 0x06000035, Fraction_Abs_mE9C6C315DCA028BB535079042567D5F1C5B4BFE2_AdjustorThunk },
+	{ 0x06000053, Fraction_ToString_mC4A6A4CEC69DE029231C3EE6A8AD6DE0D85186B7_AdjustorThunk },
+	{ 0x06000054, Fraction_ToString_m3B9F8B1DCA1FC418F6CC1B3A77754CB493D9740E_AdjustorThunk },
+	{ 0x06000055, Fraction_ToString_mA983B4CC2B1F7A1F8766DB51D3E885EF2E7062D0_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[135] = 
+{
+	4603,
+	2371,
+	2346,
+	771,
+	1290,
+	770,
+	2823,
+	2824,
+	2910,
+	2911,
+	2776,
+	2798,
+	2795,
+	5004,
+	4604,
+	4186,
+	4523,
+	3877,
+	3712,
+	3877,
+	4935,
+	5000,
+	5000,
+	4999,
+	3371,
+	3372,
+	3470,
+	3471,
+	3328,
+	3343,
+	3346,
+	3328,
+	3328,
+	3330,
+	3330,
+	3330,
+	3371,
+	5310,
+	5310,
+	5310,
+	5310,
+	1979,
+	1979,
+	2010,
+	3371,
+	2194,
+	2194,
+	2194,
+	3357,
+	2194,
+	2194,
+	3357,
+	3357,
+	5001,
+	4601,
+	4603,
+	4507,
+	4507,
+	4602,
+	4602,
+	4602,
+	4602,
+	4602,
+	4507,
+	4507,
+	4507,
+	4507,
+	5002,
+	5003,
+	5005,
+	5006,
+	4998,
+	5000,
+	4999,
+	5004,
+	5031,
+	5049,
+	5197,
+	5211,
+	4971,
+	4985,
+	4928,
+	3390,
+	2506,
+	1225,
+	5347,
+	3482,
+	2840,
+	1583,
+	972,
+	972,
+	493,
+	724,
+	3482,
+	5347,
+	5347,
+	3482,
+	1225,
+	1225,
+	1225,
+	1225,
+	1225,
+	1225,
+	1225,
+	1071,
+	1071,
+	1071,
+	1071,
+	1071,
+	1071,
+	1071,
+	3482,
+	5321,
+	5321,
+	5244,
+	5321,
+	5321,
+	5321,
+	5321,
+	2506,
+	3482,
+	5347,
+	724,
+	5095,
+	5095,
+	5095,
+	5095,
+	3482,
+	5347,
+	4942,
+	4942,
+	4645,
+	4645,
+	4645,
+	4939,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Fractions_CodeGenModule;
+const Il2CppCodeGenModule g_Fractions_CodeGenModule = 
+{
+	"Fractions.dll",
+	135,
+	s_methodPointers,
+	40,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
