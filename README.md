@@ -60,10 +60,6 @@ Understand concepts of area and relation to percentage concepts.
 
 Includes a Report Card section where parents and teachers can monitor progress and learn about new skill-building activities.
 
-### 📝More information
-
-- Source code: https://github.com/SreeSnigdha1217/PetBingo-Team9
-
 ## 🚀Technical requirements
 
 - Software engineering process: Agile process, DevOps methods
